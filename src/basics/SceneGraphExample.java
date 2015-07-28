@@ -27,7 +27,7 @@ public class SceneGraphExample extends Application {
         line.setStrokeWidth(5);
         Group grouping = new Group();
         grouping.setRotate(45);
-        ImageView iv = new ImageView(new Image("file:/home/mlewis/Pictures/PIA17171.jpg"));
+        ImageView iv = new ImageView(new Image("file:PIA17171.jpg"));
         grouping.getChildren().add(iv);
         Group root = new Group();
         root.getChildren().add(grouping);

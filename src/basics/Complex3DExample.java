@@ -33,7 +33,7 @@ public class Complex3DExample extends Application {
         sphere.setRotationAxis(new Point3D(0,-1,0));
         Camera camera = new PerspectiveCamera();
         PhongMaterial material = new PhongMaterial();
-        Image img = new Image("file:/home/mlewis/Pictures/BookCover.png");
+        Image img = new Image("file:BookCover.png");
         WritableImage writeImg = new WritableImage(img.getPixelReader(), (int)img.getWidth(), (int)img.getHeight());
         sphere.setMaterial(material);
         material.setDiffuseMap(writeImg);
