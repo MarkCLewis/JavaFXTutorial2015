@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 public class MediaExample extends Application {
     @Override
     public void start(Stage stage) {
-        Media media = new Media("file:/home/mlewis/Pictures/BeachHouseInstructions/20150513_141448.mp4");
+        Media media = new Media("file:/home/mlewis/workspace/JavaFXTesting/20150513_141448.mp4");
         MediaPlayer player = new MediaPlayer(media);
         MediaView viewer = new MediaView(player);
         viewer.setRotate(90);
