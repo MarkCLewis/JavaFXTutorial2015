@@ -26,6 +26,8 @@ public class CanvasExample extends Application {
         });
         Group root = new Group(canvas);
         Scene scene = new Scene(root,600,600);
+        canvas.widthProperty().bind(scene.widthProperty());
+        canvas.heightProperty().bind(scene.heightProperty());
         stage.setScene(scene);
         stage.show();
     }

@@ -29,7 +29,7 @@ public class BasicJavaFXEvents extends Application {
         GridPane.setVgrow(button, Priority.ALWAYS);
         GridPane.setHalignment(counter, HPos.RIGHT);
         GridPane.setHgrow(counter, Priority.ALWAYS);
-//        button.prefHeightProperty().bind(root.heightProperty());
+        button.prefHeightProperty().bind(root.heightProperty());
         Scene scene = new Scene(root,200,50);
         stage.setScene(scene);
         stage.show();
